@@ -12,3 +12,5 @@ I chose app service since it may be a little bit lower compare to virtual machin
 ### Assess app changes that would change your decision.
 
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+
+Azure Virtual Machine is an IaaS or Infrastructure-as-a-Service, If the application is much conplex than this, maybe has more dependencies and functionalities that need much maintenance I would consider adopting VM if i want to get full control over the application management and deployment, also VM will give me more control over and access to configuration assets, because i am looking for a way to handle all operations. Moreover if i need to configure high security on the app, VM would be the best choice compare to App Service. 
