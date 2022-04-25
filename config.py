@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'jamiludacity'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'Xuw1v3ABjVRamDNjI0nGKurT9oPWOgLHUtkW6ruxIvdl+Ko3+AaixdlKfi49FGvuX97Qnef7GXjj+AStizyCsA=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'rrGJTqtk0Tr05siMqjouDVzmBte/De1oq2rF2EpK/0ImIjxllLDkS6WQVwXUzXqQ4hZFWW3Mkm/a+AStXl9J7g=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'udacity-blog-project-server.database.windows.net'
@@ -19,7 +19,7 @@ class Config(object):
 
     ### Info for MS Authentication ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
-    CLIENT_SECRET = "JLf8Q~8DN0D9-OUR-IBMN4vWjMGqhB-LY2IySbYt"
+    CLIENT_SECRET = "ULH8Q~MqF-pabEt0_7CgpzqD3fUpEqqPcBOMdc~~"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
     # such as KeyVault, or environment variable as described in Flask's documentation here:
     # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
@@ -30,7 +30,7 @@ class Config(object):
     AUTHORITY = "https://login.microsoftonline.com/common"  # For multi-tenant app, else put tenant name
     # AUTHORITY = "https://login.microsoftonline.com/Enter_the_Tenant_Name_Here"
 
-    CLIENT_ID = "2f1a2391-6d0d-4c84-991a-f5bddb9a73a1"
+    CLIENT_ID = "cf475b05-4489-4cda-a839-05c726d3e78f"
 
     REDIRECT_PATH = "/getAToken"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
 
